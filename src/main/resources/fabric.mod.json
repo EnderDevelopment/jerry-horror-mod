@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jerryhorrormod",
+  "version": "1.0.0",
+  "name": "Jerry Horror Mod",
+  "description": "A Fabric mod for Minecraft with horror elements inspired by LookOut2DD's Jerry storyline.",
+  "authors": ["Joshua Savoy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joshuasavoy804.jerryhorrormod.JerryHorrorMod"
+    ]
+  },
+  "mixins": [
+    "jerryhorrormod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4"
+  }
+}
